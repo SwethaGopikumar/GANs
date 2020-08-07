@@ -5,7 +5,7 @@ This is an experimental tensorflow implementation of synthesizing images. The im
 
 
 ## Datasets
-- The model is currently trained on the [flowers dataset]. Download the images and save them in ```102flowers/102flowers/*.jpg```. Extract the archive, copy the ```text_c10``` folder and paste it in ```102flowers/text_c10/class_*```.  
+- The model is currently trained on the [flowers dataset][5]. Download the images and save them in ```102flowers/102flowers/*.jpg```.  Also download the captions from [6]. Extract the archive, copy the ```text_c10``` folder and paste it in ```102flowers/text_c10/class_*```.  
 
 ## Codes
 - `downloads.py` download Oxford-102 flower dataset and caption files(run this first).
@@ -15,6 +15,9 @@ This is an experimental tensorflow implementation of synthesizing images. The im
 - `model.py` models.
 
 ## References
-- [Generative Adversarial Text-to-Image Synthesis][2] Paper
-- [Generative Adversarial Text-to-Image Synthesis with Skip Thought Vectors](https://github.com/paarthneekhara/text-to-image) TensorFlow code
-- [DCGAN in Tensorflow][3]
+[1]:http://arxiv.org/abs/1506.06726
+[2]:http://arxiv.org/abs/1605.05396
+[3]:https://github.com/zsdonghao/dcgan
+[4]:https://github.com/tensorflow/tensorflow
+[5]:http://www.robots.ox.ac.uk/~vgg/data/flowers/102/
+[6]:https://drive.google.com/file/d/0B0ywwgffWnLLcms2WWJQRFNSWXM/view
