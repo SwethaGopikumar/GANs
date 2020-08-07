@@ -15,6 +15,10 @@ This is an experimental tensorflow implementation of synthesizing images. The im
 - `model.py` models.
 
 ## References
+- [Generative Adversarial Text-to-Image Synthesis][2] Paper
+- [Skip Thought Vectors][1] Paper
+- [DCGAN in Tensorflow][3]
+
 [1]:http://arxiv.org/abs/1506.06726
 [2]:http://arxiv.org/abs/1605.05396
 [3]:https://github.com/zsdonghao/dcgan
