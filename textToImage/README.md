@@ -5,7 +5,7 @@ This is an experimental tensorflow implementation of synthesizing images. The im
 
 
 ## Datasets
-- The model is currently trained on the [flowers dataset][9]. Download the images from [here][9] and save them in ```102flowers/102flowers/*.jpg```. Also download the captions from [this link][10]. Extract the archive, copy the ```text_c10``` folder and paste it in ```102flowers/text_c10/class_*```.  
+- The model is currently trained on the [flowers dataset]. Download the images and save them in ```102flowers/102flowers/*.jpg```. Extract the archive, copy the ```text_c10``` folder and paste it in ```102flowers/text_c10/class_*```.  
 
 ## Codes
 - `downloads.py` download Oxford-102 flower dataset and caption files(run this first).
